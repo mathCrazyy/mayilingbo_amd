@@ -1,0 +1,1 @@
+{"task_name": "grab_roller", "task_config": "demo_clean", "seed": 100001, "plan_success": false, "task_success": false, "info": {"{A}": "102_roller/base2"}, "episode_info": {"cluttered_table_info": [], "texture_info": {"wall_texture": null, "table_texture": null}, "info": {"{A}": "102_roller/base2"}}}
