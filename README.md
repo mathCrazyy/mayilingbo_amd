@@ -20,3 +20,11 @@
 - 耗时拆解：推理仅占 5–8%，九成以上在仿真与渲染（`[phase_timing]` 探针输出）
 
 详见各目录 README。
+
+## 公众号
+
+完整踩坑实录在公众号「一起富贵」连载（VLA-比赛 系列文章），欢迎关注：
+
+<p align="left">
+  <img src="assets/qrcode_pub.jpg" alt="公众号「一起富贵」二维码" width="220">
+</p>
