@@ -940,7 +940,10 @@ def eval_remote_policy(
         inference_latencies = []
         direct_lingbot = getattr(model_client, "_robotwin_protocol", "") == "lingbot_vla_v2"
         if direct_lingbot:
-            model_client.infer({"reset": True, "robo_name": usr_args.get("robo_name", "robotwin")})
+            import zlib as _zlib
+            _ep_key = str(args.get("task_config")) + "|" + str(task_name) + "|" + str(now_seed)
+            _ep_seed = _zlib.crc32(_ep_key.encode("utf-8")) % (2 ** 31)
+            model_client.infer({"reset": True, "robo_name": usr_args.get("robo_name", "robotwin"), "reset_seed": _ep_seed})
         else:
             prepare_policy_case(model_client, task_name, now_seed, instruction, action_type)
             reset_policy(model_client)
@@ -1102,7 +1105,7 @@ def build_instruction(args: dict[str, Any], episode_info: dict[str, Any], instru
             )
             candidates = results[0].get(instruction_type)
             if candidates:
-                return np.random.choice(candidates)
+                return candidates[0]
         except Exception as exc:
             print(f"Failed to render episode instruction: {type(exc).__name__}: {exc}")
 

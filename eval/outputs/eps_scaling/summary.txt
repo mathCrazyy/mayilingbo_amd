@@ -1,0 +1,6 @@
+N=10 wall=88s hits=5 Final success rate: 5/10 = 50.0% expert_total=7.3s policy_total=69.0s
+N=20 wall=159s hits=11 Final success rate: 11/20 = 55.0% expert_total=16.3s policy_total=131.9s
+N=30 wall=272s hits=19 Final success rate: 19/30 = 63.3% expert_total=19.6s policy_total=237.5s
+N=50 wall=470s hits=35 Final success rate: 35/50 = 70.0% expert_total=26.6s policy_total=431.0s
+N=100 wall=1015s hits=72 Final success rate: 72/100 = 72.0% expert_total=40.6s policy_total=954.6s
+SCALING DONE

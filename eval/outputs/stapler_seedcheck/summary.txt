@@ -1,0 +1,8 @@
+base seed=200000 wall=507s Final success rate: 10/10 = 100.0%
+trained seed=200000 wall=599s Final success rate: 7/10 = 70.0%
+base seed=300000 wall=446s Final success rate: 10/10 = 100.0%
+trained seed=300000 wall=603s Final success rate: 2/10 = 20.0%
+base seed=400000 wall=674s Final success rate: 10/10 = 100.0%
+base ALL DONE
+trained seed=400000 wall=925s Final success rate: 1/10 = 10.0%
+trained ALL DONE

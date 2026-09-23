@@ -1,0 +1,32 @@
+TRAINED	adjust_bottle	nocache	616s	Final success rate: 5/10 = 50.0%	[phase_timing] expert_total=546.9s policy_total=56.4s
+BASE	adjust_bottle	nocache	1042s	Final success rate: 0/10 = 0.0%	[phase_timing] expert_total=545.2s policy_total=484.0s
+TRAINED	blocks_ranking_rgb	nocache	1016s	Final success rate: 9/10 = 90.0%	[phase_timing] expert_total=541.8s policy_total=470.1s
+TRAINED	shake_bottle	nocache	645s	Final success rate: 7/10 = 70.0%	[phase_timing] expert_total=562.9s policy_total=76.7s
+TRAINED	click_alarmclock	nocache	283s	Final success rate: 8/10 = 80.0%	[phase_timing] expert_total=152.9s policy_total=126.4s
+TRAINED	press_stapler	nocache	576s	Final success rate: 3/10 = 30.0%	[phase_timing] expert_total=283.1s policy_total=288.9s
+TRAINED	adjust_bottle	cache	74s	Final success rate: 5/10 = 50.0%	[phase_timing] expert_total=7.3s policy_total=55.5s
+TRAINED	blocks_ranking_rgb	cache	433s	Final success rate: 9/10 = 90.0%	[phase_timing] expert_total=0.0s policy_total=429.9s
+TRAINED	shake_bottle	cache	74s	Final success rate: 7/10 = 70.0%	[phase_timing] expert_total=1.3s policy_total=69.0s
+TRAINED	click_alarmclock	cache	137s	Final success rate: 8/10 = 80.0%	[phase_timing] expert_total=6.3s policy_total=125.5s
+BASE	blocks_ranking_rgb	nocache	3027s	Final success rate: 0/10 = 0.0%	[phase_timing] expert_total=539.8s policy_total=2483.0s
+TRAINED	press_stapler	cache	310s	Final success rate: 4/10 = 40.0%	[phase_timing] expert_total=15.7s policy_total=290.9s
+TRAINED	adjust_bottle	cache2	78s	Final success rate: 5/10 = 50.0%	[phase_timing] expert_total=7.3s policy_total=59.2s
+TRAINED	blocks_ranking_rgb	cache2	441s	Final success rate: 9/10 = 90.0%	[phase_timing] expert_total=0.0s policy_total=436.3s
+TRAINED	shake_bottle	cache2	74s	Final success rate: 7/10 = 70.0%	[phase_timing] expert_total=1.4s policy_total=68.5s
+TRAINED	click_alarmclock	cache2	139s	Final success rate: 8/10 = 80.0%	[phase_timing] expert_total=6.3s policy_total=128.5s
+TRAINED	press_stapler	cache2	327s	Final success rate: 3/10 = 30.0%	[phase_timing] expert_total=15.6s policy_total=307.1s
+EXP_LANE_TRAINED DONE
+BASE	shake_bottle	nocache	1305s	Final success rate: 3/10 = 30.0%	[phase_timing] expert_total=557.8s policy_total=742.8s
+BASE	click_alarmclock	nocache	816s	Final success rate: 6/10 = 60.0%	[phase_timing] expert_total=141.2s policy_total=670.0s
+BASE	press_stapler	nocache	389s	Final success rate: 10/10 = 100.0%	[phase_timing] expert_total=286.6s policy_total=98.3s
+BASE	adjust_bottle	cache	452s	Final success rate: 0/10 = 0.0%	[phase_timing] expert_total=7.4s policy_total=432.7s
+BASE	blocks_ranking_rgb	cache	2369s	Final success rate: 0/10 = 0.0%	[phase_timing] expert_total=0.0s policy_total=2365.1s
+BASE	shake_bottle	cache	576s	Final success rate: 3/10 = 30.0%	[phase_timing] expert_total=1.3s policy_total=569.8s
+BASE	click_alarmclock	cache	611s	Final success rate: 7/10 = 70.0%	[phase_timing] expert_total=6.3s policy_total=600.2s
+BASE	press_stapler	cache	113s	Final success rate: 10/10 = 100.0%	[phase_timing] expert_total=15.6s policy_total=93.2s
+BASE	adjust_bottle	cache2	441s	Final success rate: 0/10 = 0.0%	[phase_timing] expert_total=7.2s policy_total=422.3s
+BASE	blocks_ranking_rgb	cache2	2359s	Final success rate: 0/10 = 0.0%	[phase_timing] expert_total=0.0s policy_total=2355.0s
+BASE	shake_bottle	cache2	599s	Final success rate: 3/10 = 30.0%	[phase_timing] expert_total=1.3s policy_total=593.2s
+BASE	click_alarmclock	cache2	650s	Final success rate: 6/10 = 60.0%	[phase_timing] expert_total=6.2s policy_total=639.8s
+BASE	press_stapler	cache2	133s	Final success rate: 10/10 = 100.0%	[phase_timing] expert_total=15.7s policy_total=113.0s
+EXP_LANE_BASE DONE
